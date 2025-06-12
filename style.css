@@ -1,0 +1,27 @@
+img {
+    width: 150px;
+    border-radius: 75px;
+}
+
+body {
+    background-color: black;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: aqua;
+}
+
+li {
+    list-style-type: circle;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+li:hover,a:hover {
+    color: blue;
+}
