@@ -12,3 +12,28 @@ utilizadas para criar espaço ao redor dos elementos, fora de quaisquer bordas d
 
 height: altura
 width: largura
+
+# elementos estruturais
+
+tags: <div> e <span>
+
+# block X inline
+
+inline ocupa o espaço da linha, blocks ocupam o máximo de espaço possível
+
+exemplos de block: <div>, <li>, <img>.
+exemplos de inline: <span>, <output>, <strong>.
+
+# elementos inline
+
+sempre opitar por utilizar tags semânticas, como: header, nav, section, article, aside, footer.
+
+# posicionamento: estático, relativo e absoluto
+
+a propriedade "position" especifica o tipo de método de posicionamento usado para um elemento (static, relative, fixed, absolute ou sticky)
+
+div{
+    position: static;
+    border: 3px solid #73AD21;
+}
+
