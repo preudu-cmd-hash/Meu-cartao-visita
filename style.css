@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(24, 30, 87);
     color: blueviolet;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
-    background-color: darkblue;
+    background-color: rgb(1, 1, 43);
     color: aqua;
     padding: 20px 0;
     text-align: center;
@@ -25,11 +25,22 @@ p {
     font-size: smaller;
 }
 
-h1, h2 {
-    color: aqua;
+h1, h2, p {
     margin-bottom: 3px;
     margin-top: 3px;
     padding: 0;
+}
+
+section {
+    padding: 20px;
+    max-width: 85%;
+    background: black;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px aqua;
+
 }
 
 img {
